@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                    // JavaScript target version
+    "module": "commonjs",              // Module system
+    "strict": true,                    // Enable all strict type-checking options
+    "esModuleInterop": true,          // Allow default imports from CommonJS
+    "skipLibCheck": true,             // Skip type checking of declaration files
+    "outDir": "./dist",               // Output folder for compiled JavaScript files
+    "rootDir": "./server"             // Root folder containing TypeScript files
+  },
+  "include": ["server/**/*"],         // Files to include in the compilation
+  "exclude": ["node_modules", "client"] // Files and folders to exclude
+}
