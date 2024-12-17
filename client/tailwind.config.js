@@ -1,3 +1,4 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: ["class"],
@@ -18,8 +19,8 @@ module.exports = {
 	  },
 	  extend: {
 		colors: {
-		  orange:"var(--button)",
-		  hoverOrange:"var(--hoverButtonColor)",
+		  orange: "var(--button)",
+		  hoverOrange: "var(--hoverButtonColor)",
 		  border: "hsl(var(--border))",
 		  input: "hsl(var(--input))",
 		  ring: "hsl(var(--ring))",
@@ -76,4 +77,5 @@ module.exports = {
 	  },
 	},
 	plugins: [require("tailwindcss-animate")],
-  }
+  };
+  
