@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "dev": "nodemon server/index.ts",
-    "stripe":"stripe listen --forward-to localhost:8000/api/v1/order/webhook",
-    "build":"npm install && npm install --prefix client && npm run build --prefix client",
-    "start":"nodemon server/index.ts"
+    "dev": "nodemon server/index.ts",
+    "stripe": "stripe listen --forward-to localhost:8000/api/v1/order/webhook",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "nodemon server/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.4.0",
     "cookie-parser": "^1.4.6",
@@ -25,7 +26,10 @@
     "mailtrap": "^3.4.0",
     "mongoose": "^8.5.4",
     "multer": "^1.4.5-lts.1",
-    "stripe": "^16.8.0"
+    "postcss": "^8.4.49",
+    "stripe": "^16.8.0",
+    "tailwindcss": "^3.4.16",
+    "vite": "^6.0.3"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
