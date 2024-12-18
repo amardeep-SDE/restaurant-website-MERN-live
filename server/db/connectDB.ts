@@ -1,6 +1,3 @@
-// mongopassword = 7bTvPfiCYtOeDPno
-// amardeepdwivedi1016
-
 import mongoose from "mongoose";
 
 const connectDB = async () => {
